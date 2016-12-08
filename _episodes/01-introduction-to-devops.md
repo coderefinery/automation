@@ -9,7 +9,7 @@ objectives:
   - "The goal is to get a basic idea of what DevOps and automation is about"
   - "You should get an idea about how DevOps could benefit you"
 keypoints:
-  - "DevOps is about automating the entire release cycle"
+  - "DevOps is about automating (almost) everything"
 
 ---
 
