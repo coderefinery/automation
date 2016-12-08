@@ -21,8 +21,8 @@ In this lesson you will learn about DevOps. The goal is to gain basic understand
 
 - Combines development and operations
 - Aims at decreasing manual work
-- Automizes building, testing and releasing of software
-- Automized processes can help gaining rapid and reliable release cycles
+- Automatizes building, testing and releasing of software
+- Automatized processes can help gaining rapid and reliable release cycles
 - Promotes also good practices and brings other value
 
 ---
@@ -54,6 +54,6 @@ In this lesson you will learn about DevOps. The goal is to gain basic understand
 
 # Discussion
 
-- What parts of your development cycle would you automize?
+- What parts of your development cycle would you automatize?
 - What tools - if any - are you already using? What tools have you hear of?
 

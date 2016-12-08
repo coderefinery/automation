@@ -18,19 +18,19 @@ keypoints:
 
 # The lesson
 
-- You will familiarize yourself with several automization tools
+- You will familiarize yourself with several automatization tools
   - Vagrant
   - Ansible
   - Puppet
   - Docker
   - LXC
-- Some tools are covered in other lessons, for example Git, cMake and continuous integration
+- Some tools are covered in other lessons, for example Git, CMake and continuous integration
 
 ---
 
 ## Ansible, Chef and Puppet - configuration management tools
 
-- These tools automize configuration of the servers
+- These tools automatize configuration of the servers
 - Highly scalable: easy to handle even hundreds or thousands of servers
 - Combine with git and you also have versioning
 
@@ -47,7 +47,7 @@ keypoints:
 - Client-server architecture: configuration mastered by puppet master
 - Clients - puppet agents - connect to the puppet master to get configuration
 - Can also run standalone
-- Declare resources in manigest files
+- Declare resources in manifest files
 - No ordering -> you declare the final state of the machine
 
 Write a manifest to install httpd:
