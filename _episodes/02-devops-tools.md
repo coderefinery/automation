@@ -81,13 +81,13 @@ $ puppet agent -t
 
 ### Installation
 
-- Install VirtualBox, https://www.virtualbox.org/wiki/Downloads
-- Install Vagrant, from https://www.vagrantup.com/downloads.html
+- Install VirtualBox, [https://www.virtualbox.org/wiki/Downloads](https://www.virtualbox.org/wiki/Downloads)
+- Install Vagrant, from [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 - You can use other VM providers as well, for example VMware
 
 Installation with RHEL:
 
-Note! You can get the newest Vagrant installable from https://www.vagrantup.com/downloads.html
+Note! You can get the newest Vagrant installable from [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 
 ```shell
 sudo cd /etc/yum.repos.d/
@@ -124,6 +124,7 @@ To add the box, run:
 ```shell
 vagrant box add centos/7
 ```
+Choose the provider you want to use
 
 Change to the cloned directory (vagrant-basic) and run:
 
@@ -137,7 +138,7 @@ After the server is built, you can access it with command
 vagrant ssh
 ```
 
-executed from the directory containing the Vagrantfile. You can also ssh the machine normally with ssh client, the vagrant user's default password is vagrant. If the script was executed correctly, you should also see httpd server responding via a forwarded port, from address http://127.0.0.1:8888.
+executed from the directory containing the Vagrantfile. You can also ssh the machine normally with ssh client, the vagrant user's default password is vagrant. If the script was executed correctly, you should also see httpd server responding via a forwarded port, from address [http://127.0.0.1:8888](http://127.0.0.1:8888).
 
 Other common commands for vagrant are:
 
@@ -199,11 +200,11 @@ sudo rmdir /media/VBoxGuestAdditions
 - Available for most common operating systems, and also some clouds: AWS, Azure
 - Provides an easy and fast way to spawn services
 - With orchestration you can spawn new instances quickly and automatically to serve users in traffic peaks
-- Public Docker images available in Docker hub https://hub.docker.com/ but a word of warning: not all images can be trusted! There have been examples of contaminated images so investigate before using images blindly.
+- Public Docker images available in Docker hub [https://hub.docker.com/](https://hub.docker.com/]) but a word of warning: not all images can be trusted! There have been examples of contaminated images so investigate before using images blindly.
 - Note that Docker containers should be disposable: the data must be saved elsewherei
 - The image is built based on the Dockerfile
 
-In this excercise you can use the Vagrant repository again, use the directory 'docker'. The Vagrantfile will again install Centos 7, but now with Docker and it will also start a docker image "jupyter/minimal-notebook". In Docker hub this image can be found behind url https://hub.docker.com/r/jupyter/minimal-notebook/ and in GitHub under https://github.com/jupyter/docker-stacks.
+In this excercise you can use the Vagrant repository again, use the directory 'docker'. The Vagrantfile will again install Centos 7, but now with Docker and it will also start a docker image "jupyter/minimal-notebook". In Docker hub this image can be found behind url [https://hub.docker.com/r/jupyter/minimal-notebook/](https://hub.docker.com/r/jupyter/minimal-notebook/) and in GitHub under [https://github.com/jupyter/docker-stacks](https://github.com/jupyter/docker-stacks).
 
 This Vagrantfile will first install Docker with:
 

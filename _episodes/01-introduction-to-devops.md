@@ -40,7 +40,7 @@ In this lesson you will learn about DevOps. The goal is to gain basic understand
 
 # DevOps tools
 
-- Good coverage of tools in https://xebialabs.com/periodic-table-of-devops-tools/
+- Good coverage of tools in [https://xebialabs.com/periodic-table-of-devops-tools/](https://xebialabs.com/periodic-table-of-devops-tools/)
   <img src="https://xebialabs.com/assets/files/infographics/periodic-table-of-devops-v2.png" style="width: 700px;"/>
   - ...but this is not a perfect list
 - Many tools are free to use, some might have a free community version and a paid one
