@@ -207,7 +207,8 @@ sudo rmdir /media/VBoxGuestAdditions
 - Available for most common operating systems, and also some clouds: AWS, Azure
 - Provides an easy and fast way to spawn services
 - With orchestration you can spawn new instances quickly and automatically to serve users in traffic peaks
-- Public Docker images available in Docker hub [https://hub.docker.com/](https://hub.docker.com/]) but a word of warning: not all images can be trusted! There have been examples of contaminated images so investigate before using images blindly.
+- Public Docker images available in Docker hub [https://hub.docker.com/](https://hub.docker.com/]) but a word of warning: <span style="color: red">not all images can be trusted! There have been examples of contaminated images so investigate before using images blindly</span>.
+
 - Note that Docker containers should be disposable: the data must be saved elsewherei
 - The image is built based on the Dockerfile
 
