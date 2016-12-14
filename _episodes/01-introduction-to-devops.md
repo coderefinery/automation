@@ -55,5 +55,5 @@ In this lesson you will learn about DevOps. The goal is to gain basic understand
 # Discussion
 
 - What parts of your development cycle would you automatize?
-- What tools - if any - are you already using? What tools have you hear of?
+- What tools - if any - are you already using? What tools have you heard of?
 

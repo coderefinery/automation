@@ -50,25 +50,6 @@ keypoints:
 - Declare resources in manifest files
 - No ordering -> you declare the final state of the machine
 
-Write a manifest to install httpd:
-
-```ruby
-package { 'httpd':
-    ensure => latest,
-}
-
-service { 'httpd':
-    ensure => running,
-    enable => true,
-}
-```
-
-Apply it to the client with:
-
-```shell
-$ puppet agent -t
-```
-
 
 ---
 
@@ -174,6 +155,29 @@ rm VBoxGuestAdditions_5.1.2.iso
 sudo umount /media/VBoxGuestAdditions
 sudo rmdir /media/VBoxGuestAdditions
 ```
+---
+
+## Ansible, Chef and Puppet - configuration management tools
+
+- These tools automatize configuration of the servers
+- Highly scalable: easy to handle even hundreds or thousands of servers
+- Combine with git and you also have versioning
+
+### Puppet
+
+- Open source configuration management tool
+- Written in Ruby
+- Relatively old
+- Supports Unix-like and Microsoft Windows systems
+- Vast variety of modules available
+
+#### Architecture
+
+- Client-server architecture: configuration mastered by puppet master
+- Clients - puppet agents - connect to the puppet master to get configuration
+- Can also run standalone
+- Declare resources in manifest files
+- No ordering -> you declare the final state of the machine
 
 ## Ansible
 
