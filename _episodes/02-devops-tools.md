@@ -85,21 +85,24 @@ $ puppet agent -t
 - Install Vagrant, from [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 - You can use other VM providers as well, for example VMware
 
-Installation with RHEL:
+Example installation with RHEL, by not using the downloadable packets:
 
 Note! You can get the newest Vagrant installable from [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 
 ```shell
 sudo cd /etc/yum.repos.d/
 sudo wget http://download.virtualbox.org/virtualbox/rpm/rhel/virtualbox.repo
-sudo yum install virtualbox
-wget https://releases.hashicorp.com/vagrant/1.8.7/vagrant_1.8.7_x86_64.rpm
-yum install vagrant_1.8.7_x86_64.rpm
+sudo yum search virtualbox
+sudo yum install VirtualBox-5.1
+cd
+wget https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1_x86_64.rpm
+sudo yum install vagrant_1.9.1_x86_64.rpm
 sudo /sbin/rcvboxdrv setup
 ```
+Note: the versions for VirtualBox and Vagrant differ
 Note: if you are using Fedora, change /rhel/ to /fedora/ in the link above
 
-Installation with Debian:
+Installation on Ubuntu/Debian by not using the installation packages:
 
 ```shell
 sudo apt-get install dkms
@@ -124,7 +127,7 @@ To add the box, run:
 ```shell
 vagrant box add centos/7
 ```
-Choose the provider you want to use
+Choose the provider you want to use, in this example it is virtualbox
 
 Change to the cloned directory (vagrant-basic) and run:
 
@@ -138,7 +141,7 @@ After the server is built, you can access it with command
 vagrant ssh
 ```
 
-executed from the directory containing the Vagrantfile. You can also ssh the machine normally with ssh client, the vagrant user's default password is vagrant. If the script was executed correctly, you should also see httpd server responding via a forwarded port, from address [http://127.0.0.1:8888](http://127.0.0.1:8888).
+executed from the directory containing the Vagrantfile. You can also ssh the machine normally with ssh client, the vagrant user's default password is vagrant. If the script was executed correctly, you should also see httpd server responding via a forwarded port, from address [http://127.0.0.1:7888](http://127.0.0.1:7888).
 
 Other common commands for vagrant are:
 
@@ -158,9 +161,9 @@ vagrant box update
 
 ***
 
-#### Additional task
+#### Additional information
 
-To make the shared folder work withouth using rsync, you will need the VirtualBox Guest Additions installed. Guest additions provide several features for virtual machines, for example drivers. This example shows how to install these on VirtualBox 5.1.2.
+To make the shared folder work withouth using rsync, you will need the VirtualBox Guest Additions installed. Guest additions provide several features for virtual machines, for example drivers. This example shows how to install these on VirtualBox 5.1.2. Normally you won't need this but in case you do, it is good to know about this package.
 
 ```
 wget http://download.virtualbox.org/virtualbox/5.1.2/VBoxGuestAdditions_5.1.2.iso
