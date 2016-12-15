@@ -33,8 +33,14 @@ To name but a few:
 Using these service providers you can spawn servers almost anywhere in the world over Internet connection, usually with a web user interface and/or a command line client. Servers that can easily be created and deleted programmatically are a very good option to embed to your automated processes! For example Ansible contains modules for many cloud platforms: with it you can have a very dynamic environment.
 
 Cloud environments are used in myriad ways, some examples:
-   - High performance computing on exotic platforms, for example with special operating systems
-   - Large scale services are often built on Cloud (or to store data on a Cloud)
-   - A lot of development work is done on Cloud
-   - And many many more
+
+* Research use, examples:
+    * [Euclid](http://sci.esa.int/euclid/), astronomy
+    * [ELIXIR](http://www.elixir-finland.org/), bioinformatics
+    * [CMS](https://home.cern/about/experiments/cms), particle physics
+    * [FIMM](https://www.fimm.fi/en), medicine
+* High performance computing on exotic platforms, for example with special operating systems
+* Large scale services are often built on Cloud (or to store data on a Cloud)
+* A lot of development work is done on Cloud
+* And many many more
 
