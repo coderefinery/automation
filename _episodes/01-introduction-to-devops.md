@@ -13,6 +13,12 @@ keypoints:
 
 ---
 
+# Foreword
+
+- The DevOps and Automation lessons are the most technically challenging parts of this training
+- Don't worry if you don't get everything: the most important thing is to get understanding of the topics
+- You can revisit the lessons later and try out the excercises on your own
+
 # Introduction to DevOps
 
 In this lesson you will learn about DevOps. The goal is to gain basic understanding of what DevOps and automation is about and get ideas on how You could possibly use these tools to improve your workflow. You will also get a generic idea about the variety of tools available, in next lesson you will get to know some of the tools a bit better. 
@@ -55,5 +61,5 @@ In this lesson you will learn about DevOps. The goal is to gain basic understand
 # Discussion
 
 - What parts of your development cycle would you automatize?
-- What tools - if any - are you already using? What tools have you hear of?
+- What tools - if any - are you already using? What tools have you heard of?
 
